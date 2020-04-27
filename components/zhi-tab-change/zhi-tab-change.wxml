@@ -1,0 +1,14 @@
+<view class="tabs">
+  <view class="tab-head">
+    <block wx:for="{{tabs}}" wx:key="id">
+      <view 
+      class="tab-head-item {{ item.isActive? 'active': ''}}"
+      bind:tap="handleTabsItemsClick"
+      data-index="{{index }}"
+      >{{item.value}}</view>
+    </block>   
+  </view>
+  <view class="tab-body">
+    <slot></slot>
+  </view>
+</view>

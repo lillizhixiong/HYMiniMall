@@ -1,0 +1,6 @@
+/* pages/authorization/authorization.wxss */
+
+button {
+  width: 80%;
+  margin-top: 40rpx;
+}

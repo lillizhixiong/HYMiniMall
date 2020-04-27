@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "zhi-search-input": "../../components/zhi-search-input/zhi-search-input",
+    "zhi-swiper": "../../components/zhi-swiper/zhi-swiper",
+    
+    "zhi-cate-navigate": "./children-components/zhi-cate-navigate/zhi-cate-navigate",
+    "zhi-floor-navigate": "./children-components/zhi-floor-navigate/zhi-floor-navigate"
+
+  }
+}

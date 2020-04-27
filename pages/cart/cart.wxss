@@ -1,0 +1,150 @@
+page {
+  padding-bottom: 90rpx;
+}
+
+/* pages/cart/cart.wxss */
+.revice-address-row {
+  padding: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.revice-address-row button{
+  width: 70%;
+}
+
+.user-info {
+  flex: 5;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+
+.user-phone {
+  flex: 2;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+
+
+.cart-content {}
+
+.cart-title {
+  font-size: 36rpx;
+  padding: 20rpx;
+  border-top: 1rpx solid var(--themeColor);
+  border-bottom: 1rpx solid var(--themeColor);
+}
+
+.cart-item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.cart-fxk-wrap{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-item navigator {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-item navigator  image {
+  width: 80%;
+}
+
+.cart-info-wrap {
+  flex: 4;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.goods-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #666;
+}
+
+.goods-price-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+}
+
+.cart-num-tool {
+  display: flex;
+}
+
+.num-edit{
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rpx solid #ccc;
+}
+
+.goods-num {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pay-wrap {
+  position: fixed;
+  display: flex;
+  height: 90rpx;
+  border-top: 1rpx solid #ccc;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.cke-all-wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totle-price-wrap {
+  padding-right: 15rpx;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.totle-price-text {
+  font-size: 34rpx;
+  color: var(--themeColor);
+}
+.order-pay-wrap {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--themeColor);
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #fff;
+}

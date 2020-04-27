@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "zhi-search-input": "../../components/zhi-search-input/zhi-search-input",
+    "zhi-tab-change": "../../components/zhi-tab-change/zhi-tab-change"
+  },
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

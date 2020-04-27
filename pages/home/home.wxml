@@ -1,0 +1,11 @@
+<!-- 1. 搜索框 -->
+<zhi-search-input />
+
+<!-- 2. 轮播图 -->
+<zhi-swiper swiperLists="{{ swiperLists }}" swiperheight="swiper-height" />
+
+<!-- 3. 导航分类模块 -->
+<zhi-cate-navigate cates="{{ cates }}" />
+
+<!-- 4. 楼层模块 -->
+<zhi-floor-navigate floorList="{{ floorList }}"/>

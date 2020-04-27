@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile", 
+    "pages/search/search",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/pay/pay",
+    "pages/authorization/authorization" 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "HYMiniMall",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assets/image/tabbar/home.png",
+        "selectedIconPath": "/assets/image/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/assets/image/tabbar/category.png",
+        "selectedIconPath": "/assets/image/tabbar/category-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/assets/image/tabbar/cart.png",
+        "selectedIconPath": "/assets/image/tabbar/cart-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "购物车",
+        "iconPath": "/assets/image/tabbar/profile.png",
+        "selectedIconPath": "/assets/image/tabbar/profile-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

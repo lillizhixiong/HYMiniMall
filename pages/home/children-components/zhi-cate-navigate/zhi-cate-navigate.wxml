@@ -1,0 +1,8 @@
+<view class="cate">
+  <block wx:for="{{cates}}" wx:key="image_src">
+    <navigator open-type="navigate">
+      <image src="{{ item.image_src }}" mode="widthFix" lazy-load>
+      </image>
+    </navigator>
+  </block>
+</view>

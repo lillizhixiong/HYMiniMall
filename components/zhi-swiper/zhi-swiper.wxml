@@ -1,0 +1,17 @@
+<view class="swiper">
+  <swiper 
+  class="swiperheight"
+  indicator-dots
+  autoplay
+  circular
+  interval="2000"
+  >
+    <block wx:for="{{swiperLists}}" wx:key="goods_id">
+      <swiper-item>
+        <image src="{{ item.image_src }}" mode="widthFix" lazy-load>       
+        </image>
+      </swiper-item>
+    </block>
+    
+  </swiper>
+</view>

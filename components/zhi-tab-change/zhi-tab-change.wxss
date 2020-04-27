@@ -1,0 +1,17 @@
+
+.tab-head {
+  display: flex;
+}
+
+.tab-head-item {
+  color: #333;
+  flex: 1;
+  padding: 15rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-head-item.active { 
+  border-bottom: 5rpx solid var(--themeColor);
+}

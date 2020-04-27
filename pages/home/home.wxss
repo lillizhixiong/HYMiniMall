@@ -1,0 +1,7 @@
+
+
+/* 向自定义组件传入样式 */
+.swiper-height {
+  height: 340rpx;
+}
+

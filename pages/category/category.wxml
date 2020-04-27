@@ -1,0 +1,35 @@
+<!-- 1. 搜索框 -->
+<zhi-search-input />
+<!-- 2. 分类数据显示 -->
+<view class="cates">
+  <scroll-view class="cate-left" scroll-y>
+    <block wx:for="{{leftMenuList}}" wx:key='*this'>
+      <view 
+      class="menu-item {{index == currentIndex? 'active':''}}"
+      bind:tap = "handleMenuItemClick"
+      data-index=" {{index}} "
+      >{{ item }}</view>
+    </block>
+  </scroll-view>
+  <scroll-view class="cate-right" scroll-y scroll-top="{{scrollTop}}">
+    <block wx:for="{{rightContent}}" wx:for-item="outer" wx:for-index="outer_index" wx:key="outer_index">
+      <view class="goods-group">
+        <view class="goods-title">
+          <text class="delimiter">/</text>
+          <text class="title">{{outer.cat_name}}</text>
+          <text class="delimiter">/</text>
+
+        </view>
+        <view class="goods-list">
+          <block wx:for="{{outer.children}}" wx:for-item="inner" wx:for-index="inner_index" wx:key="inner_index">
+            <navigator open-type="navigate" url="/pages/goods_list/goods_list?cid={{inner.cat_id}}">
+              <image src="{{inner.cat_icon}}" mode="widthFix"></image>
+              <view class="goods-name">{{ inner.cat_name}}</view>
+            </navigator>
+          </block>
+        </view>
+      </view>
+    </block>
+
+  </scroll-view>
+</view>

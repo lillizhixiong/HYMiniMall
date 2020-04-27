@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "zhi-search-input": "../../components/zhi-search-input/zhi-search-input"
+  },
+  "navigationBarTitleText": "商品分类"
+}

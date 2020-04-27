@@ -1,0 +1,7 @@
+.cate {
+  display: flex;
+}
+.cate navigator {
+  flex: 1;
+  padding: 20rpx;
+}
